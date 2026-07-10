@@ -1,0 +1,34 @@
+# VM disks, snapshots, and VMware working files — these are huge and often contain
+# real system state; never commit them.
+*.vmdk
+*.vmem
+*.vmsn
+*.vmsd
+*.vmx.lck/
+*.nvram
+*.vmss
+*.log
+
+# ISOs and installers
+*.iso
+*.deb
+*.msi
+*.exe
+
+# Splunk local runtime state / indexes (if you ever export the Splunk VM's app dir)
+etc/system/local/*.conf.bak
+var/
+
+# Credentials, keys, license files — never commit these
+*.lic
+*.key
+*.pem
+secrets.*
+credentials.*
+*.env
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
