@@ -75,8 +75,6 @@ Universal Forwarder.
     └── kali-static-ip.sh             # Kali static IP setup
 ```
 
-*(Adjust this section to match whatever you actually commit — see note below.)*
-
 ## Quick start
 
 The full walkthrough — network setup, DC promotion, domain join, Splunk install, and attack
